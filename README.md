@@ -7,7 +7,7 @@ safety length for every javascript program !
 
 # Why length.js ?
 Actually the `.length` will be called in your program everywhere, also we see
-the fatal error in your log. perhaps, it will crash your program, the `length.js`
+the fatal error in your log. perhaps, it will crash your program, the `js-length`
 will `resolve` all the length or size of `javascript variable`.
 
 * Crash:
@@ -30,7 +30,7 @@ It's not safe here
 
 * To avoid call the `length` of null
 ```js
-const length = require('length.js');
+const length = require('js-length');
 for(let i = 0; i < length(someAPI()); i++) {
   // Logic code here
 }
@@ -50,7 +50,7 @@ npm i --save length.js
 
 * require
 ```js
-const length = require('length.js');
+const length = require('js-length');
 ```
 
 * examples
