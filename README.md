@@ -1,2 +1,2 @@
-# size.js
-focus to implement the various detection of size
+# length.js
+safety length for every javascript program !
