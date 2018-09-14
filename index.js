@@ -1,7 +1,7 @@
 'use strict';
 
-const UNLENGTH_TYPE = [ 'number', 'boolean' ];
-const NULL_OR_UNDEF = [ null, undefined ];
+const UNLENGTH_TYPE = ['number', 'boolean'];
+const NULL_OR_UNDEF = [null, undefined];
 
 /**
  * @description Get length in safety
@@ -30,6 +30,6 @@ const length = (v) => {
   }
 
   return v.length;
-}
+};
 
 exports = module.exports = { length };
