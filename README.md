@@ -2,6 +2,7 @@
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/47748c98a2a142958333845ba6343225)](https://app.codacy.com/app/danielsss/length.js?utm_source=github.com&utm_medium=referral&utm_content=danielsss/length.js&utm_campaign=Badge_Grade_Dashboard)
 [![Build Status](https://travis-ci.com/danielsss/length.js.svg?branch=master)](https://travis-ci.com/danielsss/length.js)
+[![npm version](https://badge.fury.io/js/js-length.svg)](https://badge.fury.io/js/js-length)
 
 safety length for every javascript program !
 
