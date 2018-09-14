@@ -4,11 +4,18 @@
   "description": "safety length for every javascript program !",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "lint": "eslint .",
+    "coveralls": "node ./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --colors test/*.test.js",
+    "coverage": "cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
     "chai": "^4.1.2",
+    "coveralls": "^3.0.2",
+    "eslint-config-daniels": "^1.0.1",
+    "istanbul": "^0.4.5",
     "mocha": "^5.2.0",
+    "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^13.0.1"
   },
   "repository": {
