@@ -5,7 +5,7 @@
 
 safety length for every javascript program !
 
-# Why length.js ?
+# Why js-length ?
 Actually the `.length` will be called in your program everywhere, also we see
 the fatal error in your log. perhaps, it will crash your program, the `js-length`
 will `resolve` all the length or size of `javascript variable`.
@@ -45,7 +45,7 @@ for(let i = 0; i < length(someAPI()); i++) {
 
 * install
 ```shell
-npm i --save length.js
+npm i --save js-length@latest
 ```
 
 * require

@@ -1,6 +1,6 @@
 {
   "name": "js-length",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "safety length for every javascript program !",
   "main": "index.js",
   "scripts": {
