@@ -1,0 +1,29 @@
+{
+  "name": "size.js",
+  "version": "1.0.0",
+  "description": "safety length for every javascript program !",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "nyc": "^13.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsss/length.js.git"
+  },
+  "keywords": [
+    "sizeof",
+    "size",
+    "collection"
+  ],
+  "author": "danielsss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danielsss/length.js/issues"
+  },
+  "homepage": "https://github.com/danielsss/length.js#readme"
+}
