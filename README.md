@@ -13,7 +13,7 @@ will `resolve` all the length or size of `javascript variable`.
 
 * Crash:
 ```js
-// assume response null
+// Assuming that `some API()` gives a response value of null
 const test = someAPI();
 
 for(let i = 0; i < test.length; i++) {
@@ -32,7 +32,8 @@ It's not safe here
 * To avoid call the `length` of null
 ```js
 const length = require('js-length');
-for(let i = 0; i < length(someAPI()); i++) {
+const values = someAPI();
+for(let i = 0; i < length(values); i++) {
   // Logic code here
 }
 
