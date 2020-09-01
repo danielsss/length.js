@@ -1,7 +1,7 @@
 {
   "name": "js-length",
   "version": "1.0.22",
-  "description": "safety length for every javascript program !",
+  "description": "A safety length tool for every javascript program !",
   "main": "index.js",
   "scripts": {
     "test": "nyc mocha",

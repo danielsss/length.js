@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.com/danielsss/length.js.svg?branch=master)](https://travis-ci.com/danielsss/length.js)
 [![npm version](https://badge.fury.io/js/js-length.svg)](https://badge.fury.io/js/js-length)
 
-safety length for every javascript program !
+A safety length tool for every javascript program.
 
 # Why js-length ?
 Actually the `.length` will be called in your program everywhere, also we see
